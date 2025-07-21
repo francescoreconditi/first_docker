@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  programma_a:
+    build: .
+    command: python entrypoints/run.py programma_a
+    volumes:
+      - .:/app
+
+  programma_b:
+    build: .
+    command: python entrypoints/run.py programma_b
+    volumes:
+      - .:/app

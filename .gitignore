@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Editor settings
+.vscode/
+.idea/
+
+# Local environment files
+.env
+.env.*
+
+# Test results / logs
+*.log
+*.coverage
+.cache/
+coverage.xml
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Docker artifacts
+*.pid
+*.tar
+*.sock
+docker-compose.override.yml
+
+# Python tooling
+.pytest_cache/
+.tox/
+dist/
+build/
+site/
+
+# PDM / Poetry / uv caches
+__pypackages__/
+.uv/

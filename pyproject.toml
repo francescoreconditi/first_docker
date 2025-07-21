@@ -1,0 +1,8 @@
+[project]
+name = "tuo_progetto"
+version = "0.1.0"
+description = "Un progetto Python multi-entry con uv e Docker"
+dependencies = [
+    "numpy",
+    "requests"
+]
